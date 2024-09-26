@@ -1,0 +1,31 @@
+body {
+  background: #f0c27b; /* Color de fondo */
+  background: -webkit-linear-gradient(to right, #f0c27b, #4b1248); /* Degradado */
+  background: linear-gradient(to right, #f0c27b, #4b1248); /* Degradado */
+}
+
+.formulario {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto; /* Centrar el formulario */
+}
+
+.formulario input, select {
+  border: none;
+  height: 40px; /* Ajustar la altura para que sea más grande */
+  border-radius: 5px;
+}
+
+.error {
+  background-color: red;
+}
+
+.elemento-lista {
+  color: #4b1248;
+  font-family: Verdana;
+  border: 5px solid #4b1248;
+  border-radius: 5px;
+  padding: 5px;
+}
